@@ -2,7 +2,7 @@
 if (!session_id()) session_start();
 include("conn/conn.php");
 if(empty($_SESSION['userid'])){
-	echo "<script>alert('请先登录');window.location.href='login.php';</script>";
+	echo "<script>alert('Login First');window.location.href='login.php';</script>";
 }
 ?>
 <!DOCTYPE html>
