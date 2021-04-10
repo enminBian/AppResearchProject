@@ -4,7 +4,7 @@
 --
 -- Host: 127.0.0.1
 -- Generation Time: 2021-04-10 04:26:22
--- 服务器版本： 5.6.17
+-- Server Edition： 5.6.17
 -- PHP Version: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- 表的结构 `tbl_movies`
+-- Table Structure `tbl_movies`
 --
 
 CREATE TABLE IF NOT EXISTS `tbl_movies` (
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `tbl_movies` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
 
 --
--- 转存表中的数据 `tbl_movies`
+-- database `tbl_movies`
 --
 
 INSERT INTO `tbl_movies` (`mv_id`, `mv_cover`, `mv_title`, `mv_year`, `mv_runtime`, `mv_storyline`, `mv_trailer`, `mv_release`, `type`) VALUES
@@ -69,7 +69,7 @@ INSERT INTO `tbl_movies` (`mv_id`, `mv_cover`, `mv_title`, `mv_year`, `mv_runtim
 -- --------------------------------------------------------
 
 --
--- 表的结构 `tbl_user`
+-- Table Structure `tbl_user`
 --
 
 CREATE TABLE IF NOT EXISTS `tbl_user` (
@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
--- 转存表中的数据 `tbl_user`
+-- database `tbl_user`
 --
 
 INSERT INTO `tbl_user` (`user_id`, `user_fname`, `user_name`, `user_pass`, `user_email`, `user_date`, `user_ip`, `user_admin`, `user_access`) VALUES
